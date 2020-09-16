@@ -9,9 +9,12 @@ class Quiz extends Component {
         this.state = { quiz_position: 1 }
     }
     render() {
-        return
+        return(
         // <Avatar user={props.user} />
-        <QuizQuestion quiz_question={quizData.quiz_questions[quiz_position - 1]}/>
+        <div>
+        <QuizQuestion quiz_question={quizData.quiz_questions[this.state.quiz_position - 1]}/>
+        </div>
+        )
     }
 }
 
