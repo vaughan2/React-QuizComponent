@@ -1,4 +1,4 @@
-import React, { Componenet, Component } from 'react';
+import React, { Component } from 'react';
 
 
 class QuizEnd extends Component {
