@@ -3,9 +3,7 @@ import React, { Component } from 'react';
 
 class QuizEnd extends Component {
     handleResetClick(){
-        this.setState({
-            quiz_position: 1
-        })
+        this.props.resetClickHandler()
     }
     render() {
         return (
