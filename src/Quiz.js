@@ -21,4 +21,9 @@ class Quiz extends Component {
     }
 }
 
+
+function showNextQuestion(){
+    this.props.showNextQuestionHandler = this.showNextQuestion.bind(this)
+}
+
 export default Quiz 
